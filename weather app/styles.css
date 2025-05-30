@@ -37,7 +37,12 @@ body{
     font-size: 22px;
 }
 .search button img{
-    width: 25px;
+    width: 55px;
+}
+.search button{
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
 }
 .weather img{
     width: 160px;
