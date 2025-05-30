@@ -38,9 +38,9 @@
     <script>
         const apikey = "15cc99a2b349eaf5e416d9207d75f1df";
         const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
-        const searchBox = document.querySelctor(".search input");
-        const searchBtn = document.querySelctor(".search button");
-        const weatherIcon = document.querySelctor(".weather-icon");
+        const searchBox = document.querySelector(".search input");
+        const searchBtn = document.querySelector(".search button");
+        const weatherIcon = document.querySelector(".weather-icon");
 
 
         async function checkWeather(city){
@@ -73,7 +73,7 @@
         searchBtn.addEventListener("click", ()=>{
             checkWeather(searchBox.value);
         })
-        checkWeather();  
+        checkWeather("Patna");  
     </script>
 
 </body>
